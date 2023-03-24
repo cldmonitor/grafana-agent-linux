@@ -46,7 +46,7 @@ yum-config-manager grafana
 
 sudo yum install -y grafana-agent
 
-sleep 30
+sleep 5
 
 # Modify Grafana Agent Port
 
