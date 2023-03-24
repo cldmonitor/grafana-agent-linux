@@ -20,7 +20,8 @@ export region
 read -p "Enter the Customer ID: " customer_id
 export customer_id
 
-
+wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/bin/yq &&\
+    chmod +x /usr/bin/yq
 
 # Set the Grafana Repository
 
